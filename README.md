@@ -64,7 +64,7 @@ Public comparison database for disposable vapes. Primary reference device: **Ali
 
 - [Alibarbar Australia product pages](https://www.ailibarbar.com)
 - Public competitor product listings (specs may vary by model)
-- [alibarbar-guide-hub](https://github.com/aozhou792/alibarbar-guide-hub)
+- [alibarbar-guide-hub](https://github.com/PodPickGuide/alibarbar-guide-hub)
 
 ---
 
