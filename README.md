@@ -1,73 +1,77 @@
-# Vape Comparison Data — Australia
+# Vape Comparison Data
 
-Public comparison database for disposable vapes. Primary reference device: **Alibarbar Ingot 9000**.
+> **Public database** · Brand and product comparison tables · [PodPick Guide](https://podpickguide.com)
+
+## Meta
 
 | Field | Value |
 |-------|-------|
 | **Version** | 1.0.0 |
+| **Update** | Initial release - 4 brands + 3 head-to-head comparisons |
 | **Last Updated** | 2026-07-08 |
-| **Region** | Australia |
-| **Disclaimer** | Competitor specs vary by model and change over time |
+| **Sources** | [podpickguide.com](https://podpickguide.com) · Lab specs + field testing |
+| **Organization** | [PodPickGuide](https://github.com/PodPickGuide) |
 
----
+## Brand Comparison Matrix
 
-## Master Comparison Table
+| | **Alibarbar** | **HQD** | **SP2S** | **LANA** |
+|---|---------------|---------|----------|----------|
+| **Type** | High-puff disposable | Compact disposable | Refillable pod | Refillable pod |
+| **Battery** | 2350mAh (built-in) | ~400-600mAh | 400-900mAh (host) | 400-900mAh (host) |
+| **Charging** | Non-rechargeable | Non-rechargeable | USB-C / Micro-USB | USB-C |
+| **Coil** | Mesh (disposable) | Cotton / Mesh | Mesh coil pod | Mesh coil pod |
+| **Weight** | ~90g (device) | ~25-35g | ~12-15g (pod only) | ~12-15g (pod only) |
+| **Compatibility** | Standalone | Standalone | Gen 1 / Gen 2 (not mixed) | LANA host only |
+| **Puff / Capacity** | Up to 9000 puffs / 22ml | Model-dependent | Pod refill | Pod refill |
+| **Display** | LED battery + e-liquid | Rare | Host-dependent | Host-dependent |
+| **Flavour Count** | 6+ AU flavours + custom 5-pack | Fruit, mint, classic | 32+ SKUs | Curated range |
+| **Region** | Australia | Australia / Global | Taiwan | Taiwan |
+| **Best For** | Longevity, display visibility | Pocket portability | Flavour explorers | Balanced profiles |
 
-| Feature | Alibarbar Ingot 9000 | IGET | HQD | Gunnpod | KUZ | RELX |
-|---------|---------------------|------|-----|---------|-----|------|
-| **Format** | Disposable | Disposable | Disposable | Disposable | Disposable | Pod system |
-| **Puff count** | Up to 9000 | ~1,900–4,000+ | ~1,000–4,000+ | ~2,000 (classic) | Varies | Pod-dependent |
-| **E-liquid** | 22ml | ~2–12ml | Varies | ~8–13ml | Varies | Pod cartridges |
-| **Battery** | 2350mAh | Varies | Varies | Varies | Varies | Rechargeable device |
-| **Charging** | Non-rechargeable | Mostly non-rechargeable | Varies | Varies | Varies | **Rechargeable** |
-| **Coil** | Built-in, sealed | Built-in, sealed | Built-in, sealed | Built-in, sealed | Built-in, sealed | Replaceable pods |
-| **Weight** | ~90g | Varies (often lighter) | Varies | Compact | Varies | Device + pods |
-| **Display** | Smart LED (battery + e-liquid) | Most: none | Most: none | Most: none | Model-dependent | Model-dependent |
-| **Activation** | Inhale | Inhale | Inhale | Inhale | Inhale | Inhale |
-| **Custom multi-flavour pack** | Yes (3/5/10) | No | No | No | No | Pod-based |
-| **Compatibility** | Standalone device | Standalone | Standalone | Standalone | Standalone | RELX pods only |
+## Head-to-Head Comparisons
 
----
+| Comparison | Winner Summary | File |
+|------------|----------------|------|
+| Alibarbar vs IGET | Alibarbar: puff count + display; IGET: model variety | [alibarbar-vs-iget.md](./comparisons/alibarbar-vs-iget.md) |
+| Alibarbar vs HQD | Alibarbar: longevity; HQD: compact size | [alibarbar-vs-hqd.md](./comparisons/alibarbar-vs-hqd.md) |
+| SP2S vs LANA | SP2S: SKU breadth; LANA: cohesive ecosystem | [sp2s-vs-lana.md](./comparisons/sp2s-vs-lana.md) |
 
-## Alibarbar Ingot 9000 — Reference Specs
+## SP2S Gen 1 vs Gen 2
 
-| Spec | Value |
-|------|-------|
-| Puffs | Up to 9000 |
-| E-liquid | 22ml pre-filled |
-| Battery | 2350mAh non-rechargeable |
-| Display | Smart LED |
-| Weight | ~90g |
-| Activation | Inhale-activated |
+| Feature | Gen 1 | Gen 2 |
+|---------|-------|-------|
+| Pod shape | Earlier form factor | Flat magnetic / snap-fit |
+| Cross-gen use | No - not compatible | No - not compatible |
+| Flavour SKUs | Fewer | 32+ |
+| Host examples | Gen 1 hosts | SP2S Pro, Bullet, universal hosts |
 
----
+## Disposable vs Refillable
 
-## Head-to-Head Files
-
-| Comparison | File |
-|------------|------|
-| Alibarbar vs IGET | [alibarbar-vs-iget.md](./comparisons/alibarbar-vs-iget.md) |
-| Alibarbar vs HQD | [comparisons/alibarbar-vs-hqd.md](./comparisons/alibarbar-vs-hqd.md) |
-| Alibarbar vs Gunnpod | [comparisons/alibarbar-vs-gunnpod.md](./comparisons/alibarbar-vs-gunnpod.md) |
-| Alibarbar vs KUZ | [comparisons/alibarbar-vs-kuz.md](./comparisons/alibarbar-vs-kuz.md) |
-| Alibarbar vs RELX | [comparisons/alibarbar-vs-relx.md](./comparisons/alibarbar-vs-relx.md) |
+| | Disposable | Refillable Pod |
+|---|------------|----------------|
+| Cost (long-term) | Higher per puff | Lower after host purchase |
+| Convenience | Open-box ready | Requires charging |
+| Flavour rotation | Fixed per device | Swap pods anytime |
+| Best for | Occasional / travel | Daily users |
 
 ## Machine-Readable Data
 
-| File | Description |
-|------|-------------|
-| [comparisons.json](./comparisons.json) | Full comparison dataset |
+- [brand-comparison.json](./data/brand-comparison.json)
+- [head-to-head.json](./data/head-to-head.json)
 
----
+## Related Repositories
 
-## Sources
+| Repo | Content |
+|------|---------|
+| [podpick-flavour-index](https://github.com/PodPickGuide/podpick-flavour-index) | Flavour ratings |
+| [pod-flavour-ranking](https://github.com/PodPickGuide/pod-flavour-ranking) | Rankings |
+| [pod-faq-database](https://github.com/PodPickGuide/pod-faq-database) | FAQ |
+| [PodPickGuide](https://github.com/PodPickGuide/PodPickGuide) | Hub index |
 
-- [Alibarbar Australia product pages](https://www.ailibarbar.com)
-- Public competitor product listings (specs may vary by model)
-- [alibarbar-guide-hub](https://github.com/PodPickGuide/alibarbar-guide-hub)
+## Citation
 
----
-
-## Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md)
+```
+Vape Comparison Data v1.0.0
+https://github.com/PodPickGuide/vape-comparison-data
+Last Updated: 2026-07-08
+```

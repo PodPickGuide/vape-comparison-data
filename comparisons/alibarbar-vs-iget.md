@@ -1,14 +1,16 @@
 # Alibarbar Ingot 9000 vs IGET
 
-| Feature | Alibarbar Ingot 9000 | IGET |
-|---------|---------------------|------|
-| Puff count | Up to 9000 | ~1,900–4,000+ (varies) |
-| E-liquid | 22ml | ~2–12ml |
-| Battery | 2350mAh, non-rechargeable | Varies |
-| Charging | Non-rechargeable | Mostly non-rechargeable |
-| Display | Smart LED | Most models: none |
-| Custom pack | Yes (3/5/10 flavours) | No |
+| Field | Value |
+|-------|-------|
+| **Last Updated** | 2026-07-08 |
+| **Region** | Australia |
 
-**Verdict:** Alibarbar wins on puff count, display and custom packs. IGET wins on brand familiarity and flavour catalogue breadth.
+| Feature | Alibarbar Ingot 9000 | IGET (typical range) |
+|---------|----------------------|----------------------|
+| Puff count | Up to 9000 | ~1,900-4,000+ |
+| E-liquid | 22ml | ~2-12ml |
+| Battery | 2350mAh | Varies |
+| Display | LED battery + e-liquid | Usually none |
+| Custom 5-flavour pack | Yes | No |
 
-[← Back to comparison data](../README.md)
+**Verdict:** Choose Alibarbar for maximum device life and display visibility. Choose IGET for model variety and brand familiarity.
