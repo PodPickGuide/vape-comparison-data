@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-08",
+    "region": "AU",
+    "referenceDevice": "Alibarbar Ingot 9000",
+    "disclaimer": "Competitor specifications vary by model and change over time"
+  },
+  "reference": {
+    "brand": "Alibarbar",
+    "model": "Ingot 9000",
+    "puffs": "Up to 9000",
+    "eLiquidMl": 22,
+    "batteryMah": 2350,
+    "charging": "Non-rechargeable",
+    "coil": "Built-in sealed",
+    "weightG": 90,
+    "display": "Smart LED (battery + e-liquid)",
+    "activation": "Inhale",
+    "customPack": true
+  },
+  "brands": [
+    {
+      "brand": "IGET",
+      "format": "Disposable",
+      "puffs": "~1900-4000+",
+      "eLiquid": "~2-12ml",
+      "battery": "Varies",
+      "charging": "Mostly non-rechargeable",
+      "coil": "Built-in sealed",
+      "weight": "Varies",
+      "display": "Most: none",
+      "compatibility": "Standalone"
+    },
+    {
+      "brand": "HQD",
+      "format": "Disposable",
+      "puffs": "~1000-4000+",
+      "eLiquid": "Varies",
+      "battery": "Varies",
+      "charging": "Varies",
+      "coil": "Built-in sealed",
+      "weight": "Varies",
+      "display": "Most: none",
+      "compatibility": "Standalone"
+    },
+    {
+      "brand": "Gunnpod",
+      "format": "Disposable",
+      "puffs": "~2000 classic",
+      "eLiquid": "~8-13ml",
+      "battery": "Varies",
+      "charging": "Non-rechargeable",
+      "coil": "Built-in sealed",
+      "weight": "Compact",
+      "display": "Most: none",
+      "compatibility": "Standalone"
+    },
+    {
+      "brand": "KUZ",
+      "format": "Disposable",
+      "puffs": "Varies",
+      "eLiquid": "Varies",
+      "battery": "Varies",
+      "charging": "Varies",
+      "coil": "Built-in sealed",
+      "weight": "Varies",
+      "display": "Model-dependent",
+      "compatibility": "Standalone"
+    },
+    {
+      "brand": "RELX",
+      "format": "Pod system",
+      "puffs": "Pod-dependent",
+      "eLiquid": "Pod cartridges",
+      "battery": "Rechargeable device",
+      "charging": "Rechargeable",
+      "coil": "Replaceable pods",
+      "weight": "Device + pods",
+      "display": "Model-dependent",
+      "compatibility": "RELX pods only"
+    }
+  ]
+}
