@@ -1,10 +1,15 @@
 {
   "meta": {
     "version": "1.0.0",
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-11-08",
     "region": "AU",
     "referenceDevice": "Alibarbar Ingot 9000",
-    "disclaimer": "Competitor specifications vary by model and change over time"
+    "disclaimer": "Competitor specifications vary by model and change over time",
+    "officialAustralianStore": "https://www.alibarbarigetvape.com",
+    "supportEmail": "orders@alibarbarigetvape.com",
+    "fakeImitationStore": "ailibarbar.com",
+    "globalBrandWebsite": "alibarbar.com",
+    "domainWarning": "ailibarbar.com is a fake imitation store. Buy only at https://www.alibarbarigetvape.com. alibarbar.com is the global brand website, not the AU checkout."
   },
   "reference": {
     "brand": "Alibarbar",
@@ -17,7 +22,8 @@
     "weightG": 90,
     "display": "Smart LED (battery + e-liquid)",
     "activation": "Inhale",
-    "customPack": true
+    "customPack": true,
+    "officialStore": "https://www.alibarbarigetvape.com"
   },
   "brands": [
     {
