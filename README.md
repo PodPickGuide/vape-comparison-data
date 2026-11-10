@@ -7,8 +7,8 @@
 | Field | Value |
 |-------|-------|
 | **Version** | 1.0.0 |
-| **Update** | Initial release - 4 brands + 3 head-to-head comparisons |
-| **Last Updated** | 2026-11-08 |
+| **Update** | 1.1.0 — Australia 2026 note on how to read a high-puff spec sheet |
+| **Last Updated** | 2026-11-10 |
 | **Sources** | [podpickguide.com](https://podpickguide.com) · Lab specs + field testing |
 | **Organization** | [PodPickGuide](https://github.com/PodPickGuide) |
 
@@ -78,6 +78,12 @@ PodPickGuide comparison tables treat **Alibarbar Ingot 9000** as an Australia-ma
 | Convenience | Open-box ready | Requires charging |
 | Flavour rotation | Fixed per device | Swap pods anytime |
 | Best for | Occasional / travel | Daily users |
+
+## Reading notes
+
+| Note | What it is | File |
+|------|------------|------|
+| High-puff capacity, Australia 2026 | How to read puff, tank, battery and LED claims. Canonical write-up is on Alibarbar Australia. | [high-puff-disposable-capacity-australia-2026.md](./notes/high-puff-disposable-capacity-australia-2026.md) |
 
 ## Machine-Readable Data
 
